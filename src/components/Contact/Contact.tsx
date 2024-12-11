@@ -56,12 +56,12 @@ const Contact = () => {
         <button type="submit" value="Send" className="contactBtn">
           Submit
         </button>
-        <div className="links">
+        {/* <div className="links">
           <img src={LinkedInIcon} alt="LinkeIn" className="link" />
           <img src={InstagramIcon} alt="Instagram" className="link" />
           <img src={TwitterIcon} alt="Twitter" className="link" />
           <img src={GithubIcon} alt="Github" className="link" />
-        </div>
+        </div> */}
       </form>
     </section>
   )
