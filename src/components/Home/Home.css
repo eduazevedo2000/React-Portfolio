@@ -1,0 +1,113 @@
+#home {
+  height: calc(100vh - 6rem);
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  right: 0;
+  top: -4rem;
+  width: 30vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.homeContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.homeName {
+  color: rgb(240, 83, 5);
+}
+
+.homeParagraph {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.homeBtn {
+  background: white;
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 5rem;
+}
+.homeBtn:hover {
+  background: rgb(240, 83, 5);
+  margin: 1rem 0;
+  padding: 0.75rem 2rem;
+  color: white;
+}
+
+@media screen and (max-width: 840px) {
+  .bg {
+    position: absolute;
+    right: -10vw;
+    width: 100%;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bg {
+    position: absolute;
+    right: -10vw;
+    width: 100%;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 344px) {
+  .bg {
+    position: absolute;
+    right: -10vw;
+    width: 100%;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bg {
+    position: absolute;
+    right: -10vw;
+    width: 100%;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
