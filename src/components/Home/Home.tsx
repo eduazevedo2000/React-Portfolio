@@ -1,7 +1,5 @@
-import React from 'react'
 import './Home.css'
 import bg from '../../assets/eduardo.png'
-import { Link } from 'react-scroll'
 
 const Home = () => {
   return (

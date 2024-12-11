@@ -1,4 +1,3 @@
-import React from 'react'
 import './NavBar.css'
 import logo from '../../assets/logotipo.png'
 import { Link } from 'react-scroll'

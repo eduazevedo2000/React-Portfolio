@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import './Contact.css'
 import LinkedInIcon from '../../assets/linkedinIcon.png'
 import GithubIcon from '../../assets/githubIcon.png'
@@ -7,13 +7,13 @@ import TwitterIcon from '../../assets/twitterIcon.png'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  const form = useRef()
+  const form = useRef<HTMLFormElement | null>(null)
 
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_9mskm0c', 'template_dsyu3mc', form.current, {
+      .sendForm('service_9mskm0c', 'template_dsyu3mc', form.current!, {
         publicKey: 'vK3VacF8MzLTgOFZE',
       })
       .then(
@@ -50,7 +50,7 @@ const Contact = () => {
         <textarea
           className="message"
           name="message"
-          rows="5"
+          rows={5}
           placeholder="Your Message"
         ></textarea>
         <button type="submit" value="Send" className="contactBtn">

@@ -1,12 +1,6 @@
-import React from 'react'
 import './About.css'
 import bootstrapImg from '../../assets/bootstrap.png'
-import cssImg from '../../assets/css.png'
-import htmlImg from '../../assets/html.png'
-import javacriptImg from '../../assets/javascript.png'
-import mongodbImg from '../../assets/mongodb.png'
 import nodeImg from '../../assets/node.png'
-import postgresqlImg from '../../assets/postgresql.png'
 import reactImg from '../../assets/react.png'
 import gitImg from '../../assets/gitImg.png'
 
