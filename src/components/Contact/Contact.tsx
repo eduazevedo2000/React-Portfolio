@@ -1,9 +1,9 @@
 import { useRef } from 'react'
 import './Contact.css'
-import LinkedInIcon from '../../assets/linkedinIcon.png'
-import GithubIcon from '../../assets/githubIcon.png'
-import InstagramIcon from '../../assets/instagramIcon.png'
-import TwitterIcon from '../../assets/twitterIcon.png'
+// import LinkedInIcon from '../../assets/linkedinIcon.png'
+// import GithubIcon from '../../assets/githubIcon.png'
+// import InstagramIcon from '../../assets/instagramIcon.png'
+// import TwitterIcon from '../../assets/twitterIcon.png'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
