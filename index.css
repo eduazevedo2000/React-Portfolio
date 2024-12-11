@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: white;
-  background: rgb(30, 30, 30);
   font-family: 'Poppins', sans-serif;
+}
+body {
+  background: rgb(30, 30, 30);
+  color: white;
   overflow: hidden;
   overflow-y: scroll;
 }
